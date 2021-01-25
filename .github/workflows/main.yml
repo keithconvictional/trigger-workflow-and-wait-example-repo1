@@ -1,11 +1,6 @@
 name: Master
 on:
   workflow_dispatch
-inputs:
-  foo:
-    description: 'Test input demo'
-    required: false
-    default: 'not set'
 jobs:
   build:
     runs-on: ubuntu-latest
